@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Tst from "../app/lib"
+import Tst from "../api/lib"
 export default function Home({posts}) {
   return (
     
@@ -34,7 +34,7 @@ export default function Home({posts}) {
             </div>
           </div>
           
-          <Tst />
+          <Tst/>
           <h3 class="mt-5">
             Im currently doing: {"discordapi"}
           </h3>
