@@ -56,4 +56,8 @@ if (response.ok) {
   const jsonResponse = await response.json();
   console.log(jsonResponse);
   return jsonResponse
-}}
+}else {
+    console.log(response.statusText);
+    throw new Error(`Request failed! Status code: ${response.status} ${response.statusText}`);
+}
+}
