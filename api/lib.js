@@ -19,7 +19,7 @@ export default async function Tst() {
   const refresh_token = 'AQAfp3qUGQ1-hrJKBWQq18yBwdgLP--YFnu8WmkEObI1zoLnDKzk6ZKL6I9gmPf6QLS6GKEAqzeiVvGQDPhdF1LKIQsvjsGMCwld3xpEozBNQhJSnHnr7q_sRwHmqRaXhpQ'
   const acctok = 'BQAtaPEaz_mApHEr3xDQin-3doOFd3ngFb9ExLhJ-09BmfOrqjmSPe5BC2LLSDlHnLC0cdnM6FDWm2RiB72BHrMB0MBfSg2aTidClpWCtoWj0jkPGr9NFxItIEGihEXoNw2RV3s3mWqxLnB5YGQB8O7Mh6YXtYweAiO8PJdcoZlNdPKacrfFst0NQ0U6CLxHky9NWsTlXOc'
 async function auth() {
-  const url = 'https://accounts.spotify.com./api/token';
+  const url = 'https://accounts.spotify.com/api/token';
   var response = await fetch(url, {
       method: 'POST',
       headers: {
@@ -45,7 +45,7 @@ async function auth() {
 
 export async function loadspotify() {
   var token = await auth()
-  const url = `https://api.spotify.com./v1/me/player/currently-playing`;
+  const url = `https://api.spotify.com/v1/me/player/currently-playing`;
   var response = await fetch(url, {
     headers: {
         Authorization:`Bearer ${token.access_token}`,
