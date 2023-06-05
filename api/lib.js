@@ -30,7 +30,7 @@ async function auth() {
         grant_type: "refresh_token",
         refresh_token,
       }),
-      changeOrigin: true,
+      rejectUnauthorized:false,
       revalidate: 10
     });
   if (response.ok) {
