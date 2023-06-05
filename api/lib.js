@@ -4,7 +4,7 @@ import React from 'react';
 export default async function Tst() {
   const music = await loadspotify();
   //var a = music.entries[1].API
-  if(music.is_playing){
+  if(music.is_playing||music){
     return <p>Im currently listening to: {music.item.name}</p>;
   }
   else{
@@ -51,11 +51,12 @@ export async function loadspotify() {
         Authorization:`Bearer ${token.access_token}`,
     },
 });
-if (response.ok) {
+if (response.ok && !response == 204) {
   const jsonResponse = await response.json();
   console.log(jsonResponse);
   return jsonResponse
 }else {
+  return false
     console.log(response.statusText);
     throw new Error(`Request failed! Status code: ${response.status} ${response.statusText}`);
 }
