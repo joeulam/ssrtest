@@ -30,7 +30,6 @@ async function auth() {
         grant_type: "refresh_token",
         refresh_token,
       }),
-      cache: 'no-store',
       revalidate: 10
     });
   if (response.ok) {
