@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Tst from "./lib"
+import Tst from "../api/lib"
 export default function Home({posts}) {
   return (
     
