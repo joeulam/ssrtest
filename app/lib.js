@@ -45,11 +45,10 @@ async function auth() {
 }
 
 export async function loadspotify() {
-  var token = await auth()
   const url = `https://api.spotify.com./v1/me/player/currently-playing`;
   var response = await fetch(url, {
     headers: {
-        Authorization:`Bearer ${token.access_token}`,
+        Authorization:`Bearer ${acctok}`,
     },
 });
 if (response.ok) {
