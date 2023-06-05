@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-export async function Tst() {
+export default async function Tst() {
   const music = await loadspotify();
   //var a = music.entries[1].API
   if(music.is_playing){
