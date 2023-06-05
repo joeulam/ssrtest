@@ -34,6 +34,7 @@ export default function Home({posts}) {
             </div>
           </div>
           
+          <Tst />
           <h3 class="mt-5">
             Im currently doing: {"discordapi"}
           </h3>
