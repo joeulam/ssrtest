@@ -25,3 +25,22 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.socials{
+  display:flex;
+}
+.nav{
+  display:flex;
+  justify-content: center;
+  margin-top:10%;
+}
+
+.name{
+  margin-top: 20%;
+  font-size: 38px;
+}
+
+.body{
+  margin-left: 20%;
+  margin-right: 20%;
+
+}

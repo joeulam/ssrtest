@@ -21,6 +21,7 @@ export default async function Tst() {
 async function auth() {
   const url = 'https://accounts.spotify.com/api/token';
   var response = await fetch(url, {
+      cache: 'no-cache',
       method: 'POST',
       headers: {
           'Authorization': 'Basic ' + (Buffer.from(clientId + ':' + clientSecret).toString('base64')),
@@ -51,12 +52,12 @@ export async function loadspotify() {
         Authorization:`Bearer ${token.access_token}`,
     },
 });
-if (response.ok && !response == 204) {
+if (response.ok || !response == 204) {
   const jsonResponse = await response.json();
   console.log(jsonResponse);
   return jsonResponse
-}else {
-  return false
+}
+else {
     console.log(response.statusText);
     throw new Error(`Request failed! Status code: ${response.status} ${response.statusText}`);
 }
