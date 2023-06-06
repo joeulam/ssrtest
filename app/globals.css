@@ -114,3 +114,9 @@ body {
 .w{
   background-color: black;
 }
+
+@media (prefers-color-scheme:dark){
+  w{
+    background:black;
+  }
+}
