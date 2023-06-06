@@ -34,10 +34,10 @@ export default function Home({posts}) {
           <div class="mt-10 mb-10">
             <h2 class="text-xl">My socials</h2>
             <div class="socials">
-              <img src='../GitHub.png'></img>
-              <img src='../Instagram.png'></img>
-              <img src='../LinkedIn.png'></img>
-              <img src='../Email.png'></img>
+              <a href="https://github.com/joeulam"><Image width={32} height={32} src='/GitHub.png'/></a>
+              <a href="https://instagram.com/joeulamb?igshid=MjEwN2lyYWYwYw=="><Image width={32} height={32} src='/Instagram.png'/></a>
+              <a href="https://www.linkedin.com/in/joey-lam-89057021b/"><Image width={32} height={32} src='/LinkedIn.png'/></a>
+              <a href="mailto:joey.lamm@outlook.com"><Image width={32} height={32} src='/Email.png'/></a>
 
             </div>
           </div>
