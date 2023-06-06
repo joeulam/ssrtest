@@ -4,11 +4,11 @@ import React from 'react';
 export default async function Tst() {
   const music = await loadspotify();
   //var a = music.entries[1].API
-  if(music.is_playing||music){
-    return <p>Im currently listening to: {music.item.name}</p>;
+  if(music.is_playing){
+    return <p>Im currently listening to: {music.item.name} on spotify</p>;
   }
   else{
-    return <p>Im currently listening to nothing</p>
+    return <p>Im currently listening to nothing on spotify</p>
   }
 }
 
@@ -34,7 +34,7 @@ async function auth() {
       rejectUnauthorized:false,
       revalidate: 10
     });
-  if (response.ok) {
+  if (response.ok && response != 204) {
       const jsonResponse = await response.json();
       console.log(jsonResponse);
       return jsonResponse
@@ -52,9 +52,8 @@ export async function loadspotify() {
         Authorization:`Bearer ${token.access_token}`,
     },
 });
-if (response.ok || !response == 204) {
+if (response.ok && response.status != 204) {
   const jsonResponse = await response.json();
-  console.log(jsonResponse);
   return jsonResponse
 }
 else {

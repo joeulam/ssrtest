@@ -1,9 +1,15 @@
+import Navbar from "../componets/navbar"
 export default function projects(){
-    return(
+return(
+    <w class="bg-black">
+        <Navbar/>
+
         <body>
             <div>
                 projects
             </div>
         </body>
+    </w>
+        
     )
 }
