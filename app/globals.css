@@ -91,3 +91,22 @@ body {
 .skillcomp p{
   color: rgb(152, 152, 153);
 }
+
+.projectcomp{
+  border: 3px solid #52BECC;
+  border-radius: 20px;
+  width: 60%;
+  height: 25%;
+  margin-left:20%;
+  margin-bottom: 10%;
+  padding: 10%;
+}
+
+.projectcomp h1{
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.projectcomp p{
+  color: rgb(152, 152, 153);
+}

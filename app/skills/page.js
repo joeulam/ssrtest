@@ -22,17 +22,6 @@ export default function skills(){
 
         <div class="body1">
             <h1 class="mt-5 mb-5 title">Languages</h1>
-            
-            <div class="skillcomp">
-                <Image width={48} height={48} src="/javascript.png"/>
-                <h2 class="mt-5">Javascript</h2>
-                <p>2020-2023</p>
-            </div>
-            <div class="skillcomp">
-                <Image width={48} height={48} src="/python.png"/>
-                <h2 class="mt-5">Python</h2>
-                <p>2021-2023</p>
-            </div>
             <div class="skillcomp"> 
                 <Image width={48} height={48} src="/html.png"/>
                 <h2 class="mt-5">HTML</h2>
@@ -42,6 +31,16 @@ export default function skills(){
                 <Image width={48} height={48} src="/css-3.png"/>
                 <h2 class="mt-5">CSS</h2>
                 <p>2019-2023</p>
+            </div>
+            <div class="skillcomp">
+                <Image width={48} height={48} src="/javascript.png"/>
+                <h2 class="mt-5">Javascript</h2>
+                <p>2020-2023</p>
+            </div>
+            <div class="skillcomp">
+                <Image width={48} height={48} src="/python.png"/>
+                <h2 class="mt-5">Python</h2>
+                <p>2021-2023</p>
             </div>
             <div class="skillcomp">
                 <Image width={48} height={48} src="/java.png"/>
