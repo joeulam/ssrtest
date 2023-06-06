@@ -24,28 +24,29 @@ export default function skills(){
             <h1 class="mt-5 mb-5 title">Languages</h1>
             
             <div class="skillcomp">
-                <Image width={32} height={32} src="/javascript.png"/>
-                <h2>Javascript</h2>
+                <Image width={48} height={48} src="/javascript.png"/>
+                <h2 class="mt-5">Javascript</h2>
+                <p>2020-2023</p>
             </div>
             <div class="skillcomp">
-                <Image width={32} height={32} src="/python.png"/>
-                <h2>Python</h2>
+                <Image width={48} height={48} src="/python.png"/>
+                <h2 class="mt-5">Python</h2>
+                <p>2021-2023</p>
             </div>
             <div class="skillcomp"> 
-                <Image width={32} height={32} src="/html.png"/>
-                <h2>HTML</h2>
+                <Image width={48} height={48} src="/html.png"/>
+                <h2 class="mt-5">HTML</h2>
+                <p>2019-2023</p>
             </div>
             <div class="skillcomp">
-                <Image width={32} height={32} src="/css-3.png"/>
-                <h2>CSS</h2>
+                <Image width={48} height={48} src="/css-3.png"/>
+                <h2 class="mt-5">CSS</h2>
+                <p>2019-2023</p>
             </div>
             <div class="skillcomp">
-                <Image width={32} height={32} src="/java.png"/>
-                <h2>Java</h2>
-            </div>
-            <div class="skillcomp">
-                <Image></Image>
-                <h2>C#</h2>
+                <Image width={48} height={48} src="/java.png"/>
+                <h2 class="mt-5">Java</h2>
+                <p>2022-2023</p>
             </div>
         </div>
     </w>
