@@ -20,31 +20,32 @@ export default function skills(){
             </div>
         </navbar>
 
-        <div class="body">
-            <h1>Languages</h1>
-            <div>
+        <div class="body1">
+            <h1 class="mt-5 mb-5 title">Languages</h1>
+            
+            <div class="skillcomp">
                 <Image></Image>
-                Javascript
+                <h2>Javascript</h2>
             </div>
-            <div>
+            <div class="skillcomp">
                 <Image></Image>
-                Python
+                <h2>Python</h2>
             </div>
-            <div>
+            <div class="skillcomp"> 
                 <Image></Image>
-                HTML
+                <h2>HTML</h2>
             </div>
-            <div>
+            <div class="skillcomp">
                 <Image></Image>
-                CSS
+                <h2>CSS</h2>
             </div>
-            <div>
+            <div class="skillcomp">
                 <Image></Image>
-                Java
+                <h2>Java</h2>
             </div>
-            <div>
+            <div class="skillcomp">
                 <Image></Image>
-                C#
+                <h2>C#</h2>
             </div>
         </div>
     </w>
