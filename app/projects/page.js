@@ -4,13 +4,13 @@ return(
     <w class="bg-black">
         <navbar class="nav">
             <div class="navbot">  
-                <Link href="/"><img src="../home.png"/></Link>
+                <Link href="/"><Image width={32} height={32} src="../home.png"/></Link>
             </div>
             <div class="navbot">  
-                <Link href="/skills"><img src="../User.png"/></Link>
+                <Link href="/skills"><Image width={32} height={32} src="../User.png"/></Link>
             </div>
             <div id="projects" class="navbot">    
-                <Link href="/projects"><img src="../Document.png"/></Link>
+                <Link href="/projects"><Image width={32} height={32} src="../Document.png"/></Link>
             </div>
         </navbar>
 
