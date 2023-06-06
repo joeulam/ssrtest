@@ -1,8 +1,8 @@
-export default function skills(){
+export default function projects(){
     return(
         <body>
             <div>
-                skills
+                projects
             </div>
         </body>
     )

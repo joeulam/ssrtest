@@ -1,5 +1,7 @@
 import Head from "next/head";
 import Tst from "../api/lib"
+import Link from 'next/link';
+
 export default function Home({posts}) {
   return (
     
@@ -11,16 +13,16 @@ export default function Home({posts}) {
 
         <navbar class="nav">
           <div>
-            <img src="../HomePage.png"/>
-            <Link href="/"></Link>
+            
+            <Link href="/"><img src="../HomePage.png"/></Link>
           </div>
           <div>
-            <img src="../User.png"/>
-            <Link href="/skills"></Link>
+            
+            <Link href="/skills"><img src="../User.png"/></Link>
           </div>
           <div>
-            <img src="../Document.png"/>
-            <Link href="/projects"></Link>
+            
+            <Link href="/projects"><img src="../Document.png"/></Link>
           </div>
         </navbar>
 
