@@ -24,23 +24,23 @@ export default function skills(){
             <h1 class="mt-5 mb-5 title">Languages</h1>
             
             <div class="skillcomp">
-                <Image></Image>
+                <Image width={32} height={32} src="/javascript.png"/>
                 <h2>Javascript</h2>
             </div>
             <div class="skillcomp">
-                <Image></Image>
+                <Image width={32} height={32} src="/python.png"/>
                 <h2>Python</h2>
             </div>
             <div class="skillcomp"> 
-                <Image></Image>
+                <Image width={32} height={32} src="/html.png"/>
                 <h2>HTML</h2>
             </div>
             <div class="skillcomp">
-                <Image></Image>
+                <Image width={32} height={32} src="/css-3.png"/>
                 <h2>CSS</h2>
             </div>
             <div class="skillcomp">
-                <Image></Image>
+                <Image width={32} height={32} src="/java.png"/>
                 <h2>Java</h2>
             </div>
             <div class="skillcomp">
