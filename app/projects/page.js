@@ -4,7 +4,7 @@ return(
     <w class="bg-black">
         <navbar class="nav">
             <div class="navbot">  
-                <Link href="/"><img src="../HomePage.png"/></Link>
+                <Link href="/"><img src="../home.png"/></Link>
             </div>
             <div class="navbot">  
                 <Link href="/skills"><img src="../User.png"/></Link>
