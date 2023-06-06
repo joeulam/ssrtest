@@ -10,9 +10,18 @@ export default function Home({posts}) {
       </Head>
 
         <navbar class="nav">
-          <img src="../HomePage.png"/>
-          <img src="../User.png"/>
-          <img src="../Document.png"/>
+          <div>
+            <img src="../HomePage.png"/>
+            <Link href="/"></Link>
+          </div>
+          <div>
+            <img src="../User.png"/>
+            <Link href="/skills"></Link>
+          </div>
+          <div>
+            <img src="../Document.png"/>
+            <Link href="/projects"></Link>
+          </div>
         </navbar>
 
         <div class="body">
