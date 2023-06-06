@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Home({posts}) {
   return (
     
-    <w class="bg-black">
+    <w class="w">
 
       <Head>
         <title>Joey Lam"</title>

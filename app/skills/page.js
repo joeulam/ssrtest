@@ -4,7 +4,7 @@ import Link from "next/link";
 
 export default function skills(){
     return(
-    <w class="bg-black">
+    <w class="w">
         <Head>
             <title>Joey Lam"</title>
         </Head>

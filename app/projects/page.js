@@ -3,7 +3,7 @@ import Image from "next/image";
 import Head from "next/head";
 export default function projects(){
 return(
-    <w class="bg-black">
+    <w class="w">
         <Head>
             <title>Joey Lam"</title>
         </Head>
