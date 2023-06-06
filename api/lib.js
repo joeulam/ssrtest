@@ -4,8 +4,13 @@ import React from 'react';
 export default async function Tst() {
   const music = await loadspotify();
   //var a = music.entries[1].API
-  if(music.is_playing){
-    return <p>Im currently listening to: {music.item.name} on spotify</p>;
+  if(music != undefined){
+    if(music.is_playing){
+      return <p>Im currently listening to: {music.item.name} on spotify</p>;
+    }
+    else{
+      return <p>Im currently listening to nothing on spotify</p>
+    }
   }
   else{
     return <p>Im currently listening to nothing on spotify</p>
@@ -57,7 +62,5 @@ if (response.ok && response.status != 204) {
   return jsonResponse
 }
 else {
-    console.log(response.statusText);
-    throw new Error(`Request failed! Status code: ${response.status} ${response.statusText}`);
-}
+    console.log(response.statusText);}
 }

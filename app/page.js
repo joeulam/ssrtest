@@ -1,7 +1,6 @@
 import Head from "next/head";
 import Tst from "../api/lib"
-
-import Navbar from "./componets/navbar";
+import Link from "next/link";
 export default function Home({posts}) {
   return (
     
@@ -11,7 +10,17 @@ export default function Home({posts}) {
         <title>Joey Lam"</title>
       </Head>
 
-        <Navbar/>
+      <navbar class="nav">
+            <div id="home" class="navbot">  
+                <Link href="/"><img src="../HomePage.png"/></Link>
+            </div>
+            <div class="navbot">  
+                <Link href="/skills"><img src="../User.png"/></Link>
+            </div>
+            <div class="navbot">    
+                <Link href="/projects"><img src="../Document.png"/></Link>
+            </div>
+        </navbar>
 
         <div class="body">
           <h1 class="name">

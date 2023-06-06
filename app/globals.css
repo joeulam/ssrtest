@@ -44,3 +44,20 @@ body {
   margin-right: 20%;
 
 }
+
+.navbot{
+  margin-left: 2%;
+  margin-right: 2%;
+  padding-bottom: 1%;
+}
+
+#projects{
+  border-bottom: 3px solid #f4ae53;
+}
+
+#home{
+  border-bottom: 3px solid #f4ae53;
+}
+#skills{
+  border-bottom: 3px solid #f4ae53;
+}
