@@ -112,11 +112,11 @@ body {
 }
 
 .w{
-  background-color: black;
+  background-color: rgb(0, 0, 0);
 }
 
 @media (prefers-color-scheme:dark){
   w{
-    background:black;
+    background:rgb(0, 0, 0);
   }
 }
