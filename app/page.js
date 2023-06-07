@@ -25,14 +25,14 @@ export default function Home({posts}) {
         </navbar>
 
         <div class="body">
-          <h1 class="name">
+          <h1 class="name text-[#FFFFFF]" >
             I'm <span class="text-[#FF3364]">Joey</span> <span class="text-[#52BECC]">Lam</span>
           </h1>
-          <h3>
+          <h3 class="text-[#FFFFFF]">
             A passionate student from New York, interested in robotics, web development, cybersecurity, and machine learning.
           </h3>
           <div class="mt-10 mb-10">
-            <h2 class="text-xl">My socials</h2>
+            <h2 class="text-xl text-[#FFFFFF]">My socials</h2>
             <div class="socials">
               <a class="mr-5"href="https://github.com/joeulam"><Image width={32} height={32} src='/GitHub.png'/></a>
               <a class="mr-5"href="https://instagram.com/joeulamb?igshid=MjEwN2lyYWYwYw=="><Image width={32} height={32} src='/Instagram.png'/></a>
@@ -42,7 +42,7 @@ export default function Home({posts}) {
             </div>
           </div>
           
-          <h3>{Tst()}</h3>
+          <h3 class="text-[#FFFFFF]">{Tst()}</h3>
         </div>
 
     </w>

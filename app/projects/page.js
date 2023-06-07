@@ -19,9 +19,9 @@ return(
             </div>
         </navbar>
 
-        <div class="body2">
-            <h1 class="mt-5 mb-5 title">Projects</h1>
-            <div class="projectcomp">
+        <div class="body2 text-[#FFFFFF]">
+            <h1 class="mt-5 mb-5 title ">Projects</h1>
+            <div class="projectcomp ">
                 <h1>Heyo</h1>
                 <p>A mental health app running on nextjs and firebase that allowed users to track their mood and record their feeling in a journal</p>
             </div>
