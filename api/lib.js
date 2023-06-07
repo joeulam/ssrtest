@@ -54,7 +54,7 @@ export async function loadspotify() {
   const url = `https://api.spotify.com/v1/me/player/currently-playing`;
   var response = await fetch(url, {
     headers: {
-        Authorization:`Bearer ${token.access_token}`,
+        Authorization:`Bearer ${token.access_token}`, // Token ID
     },
 });
 if (response.ok && response.status != 204) {
