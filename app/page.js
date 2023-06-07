@@ -32,7 +32,7 @@ export default function Home({posts}) {
             A passionate student from New York, interested in robotics, web development, cybersecurity, and machine learning.
           </h3>
           <div class="mt-10 mb-10">
-            <h2 class="text-xl text-[#FFFFFF]">My socials</h2>
+            <h2 class="text-xl text-[#FFFFFF] mb-5">My socials</h2>
             <div class="socials">
               <a class="mr-5"href="https://github.com/joeulam"><Image width={32} height={32} src='/GitHub.png'/></a>
               <a class="mr-5"href="https://instagram.com/joeulamb?igshid=MjEwN2lyYWYwYw=="><Image width={32} height={32} src='/Instagram.png'/></a>
