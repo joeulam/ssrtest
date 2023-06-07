@@ -111,12 +111,7 @@ body {
   color: rgb(152, 152, 153);
 }
 
-.w{
+w{
   background-color: rgb(0, 0, 0);
 }
 
-@media (prefers-color-scheme:dark){
-  w{
-    background:rgb(0, 0, 0);
-  }
-}
