@@ -9,7 +9,7 @@ export default function Home({posts}) {
     <w class="w">
 
       <Head>
-        <title>Joey Lam"</title>
+        <title>Joey Lam</title>
       </Head>
 
       <navbar class="nav">
