@@ -134,7 +134,7 @@ body{
 
 @keyframes pulse-animation {
   0% {
-    box-shadow: 0 0 0 0px rgb(219, 95, 247);
+    box-shadow: 0 0 0 1px rgb(219, 95, 247);
   }
   100% {
     box-shadow: 0 0 0 3px rgb(219, 95, 247);
