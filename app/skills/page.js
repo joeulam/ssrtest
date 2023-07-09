@@ -18,6 +18,9 @@ export default function skills(){
             <div class="navbot">    
                 <Link href="/projects"><Image width={32} height={32} src="/Document.png"/></Link>
             </div>
+            <div class="navbot">    
+                <Link href="/timeline"><Image width={32} height={32} src="/timeline.png"/></Link>
+            </div>
         </navbar>
 
         <div class="body1 text-[#FFFFFF]">
@@ -25,17 +28,18 @@ export default function skills(){
             <div class="skillcomp">
                 <Image width={48} height={48} src="/java.png"/>
                 <h2 class="mt-5">Java</h2>
-                <p>2022</p>
+                <p>2021</p>
             </div>
             <div class="skillcomp">
                 <Image width={48} height={48} src="/python.png"/>
                 <h2 class="mt-5">Python</h2>
-                <p>2021</p>
+                <p>2020</p>
             </div>
             <div class="skillcomp">
                 <Image width={48} height={48} src="/javascript.png"/>
                 <h2 class="mt-5">Javascript</h2>
                 <p>2020</p>
+                <h3>Frameworks: Next.js, React</h3>
             </div>
             <div class="skillcomp"> 
                 <Image width={48} height={48} src="/html.png"/>
@@ -46,6 +50,7 @@ export default function skills(){
                 <Image width={48} height={48} src="/css-3.png"/>
                 <h2 class="mt-5">CSS</h2>
                 <p>2019</p>
+                <h3>Frameworks: Tailwind CSS</h3>
             </div>
             
             

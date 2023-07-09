@@ -38,7 +38,9 @@
 #skills{
   border-bottom: 3px solid #f4ae53;
 }
-
+#timeline{
+  border-bottom: 3px solid #f4ae53;
+}
 .skillcomp{
   border: 3px solid #FF3364;
   border-radius: 20px;
@@ -110,6 +112,30 @@ body{
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-  background: rgb(99, 99, 99);
+  background: #636363;
   border-radius: 10px;
+}
+
+.margintop{
+  margin-top: 5%;
+}
+
+.timetitle{
+  color: white;
+  text-align: center;
+  margin-top: 5%;
+  font-size: 32px;
+}
+
+.css-n0r49d-MuiTimelineDot-root {
+  animation: pulse-animation 1.5s infinite;
+}
+
+@keyframes pulse-animation {
+  0% {
+    box-shadow: 0 0 0 0px rgb(219, 95, 247);
+  }
+  100% {
+    box-shadow: 0 0 0 3px rgb(219, 95, 247);
+  }
 }

@@ -22,6 +22,9 @@ export default function Home({posts}) {
             <div class="navbot">    
                 <Link href="/projects"><Image width={32} height={32} src="/Document.png"/></Link>
             </div>
+            <div class="navbot">    
+                <Link href="/timeline"><Image width={32} height={32} src="/timeline.png"/></Link>
+            </div>
         </navbar>
 
         <div class="body">
