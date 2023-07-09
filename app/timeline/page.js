@@ -196,7 +196,7 @@ return(
                 </TimelineOppositeContent>
 
                 <TimelineSeparator>
-                    <TimelineDot variant="outlined" color="secondary"/>
+                    <TimelineDot variant="outlined" color="secondary" id="pulse"/>
 
 
 
