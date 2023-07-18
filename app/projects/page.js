@@ -25,20 +25,27 @@ return(
         <div class="body2 text-[#FFFFFF]">
             <h1 class="mt-5 mb-5 title ">Projects</h1>
             <div class="projectcomp ">
-                <h1>Cotracker</h1>
-                <p>A minialisitc finance tracker that allows for ease of keeping tabs on finances. Built using Nextjs, Vercel, Firebase, Tailwind CSS and MUI</p>
+                <h1>Stock Scraper</h1>
+                <p>A python script that scarpes data from capitoltrades and return the most recent updates</p>
+                <p>Languages/Libary used: Python, Numpy, Pandas, and BeautifulSoup</p>
+            </div>
+            <div class="projectcomp">
+                <h1>My website portfolio</h1>
+                <p>A website portfolio that showcase of my work, skills, and achievements in web development and design.</p>
+                <p>Languages/Libary used: Nextjs, Vercel, Tailwind CSS and MUI</p>
             </div>
             <div class="projectcomp ">
-                <h1>Heyo</h1>
-                <p>A mental health app running on nextjs and firebase that allowed users to track their mood and record their feeling in a journal</p>
+                <h1>Cotracker</h1>
+                <p>A minialisitc finance tracker that allows for ease of keeping tabs on finances. </p>
+                <p>Languages/Libary used: Nextjs, Vercel, Firebase, Tailwind CSS and MUI</p>
             </div>
             <div class="projectcomp">
                 <h1>Human detector</h1>
                 <p>An AI human vision detector system that detects humans and runs on tensorflow and python.</p>
             </div>
-            <div class="projectcomp">
-                <h1>My website portfolio</h1>
-                <p>A website portfolio that showcase of my work, skills, and achievements in web development and design.</p>
+            <div class="projectcomp ">
+                <h1>Heyo</h1>
+                <p>A mental health app running on electron and postgresql that allowed users to track their mood and record their feeling in a journal</p>
             </div>
             <div>
                 

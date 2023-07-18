@@ -190,21 +190,31 @@ return(
                 </TimelineSeparator>
                 <TimelineContent color="white">Graduated from Benjamin N Cardozo High School</TimelineContent>
             </TimelineItem>
+
+
             <TimelineItem>
                 <TimelineOppositeContent color="#636363">
                     7/9/2023
                 </TimelineOppositeContent>
-
                 <TimelineSeparator>
                     <TimelineDot variant="outlined" color="secondary" id="pulse"/>
-
-
-
+                    <TimelineConnector />
                 </TimelineSeparator>
                 <TimelineContent color="white">Cotracker (In-progress)</TimelineContent>
             </TimelineItem>
+
+            <TimelineItem>
+                <TimelineOppositeContent color="#636363">
+                    7/12/2023
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineDot variant="outlined" color="secondary" id="pulse"/>
+                </TimelineSeparator>
+                <TimelineContent color="white">Stock scrapper (In-progress)</TimelineContent>
+            </TimelineItem>
             </Timeline>
         </div>
+        <div class="mb-20"></div>
         
     </w>
         
