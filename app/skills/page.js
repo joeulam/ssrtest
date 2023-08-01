@@ -26,6 +26,11 @@ export default function skills(){
         <div class="body1 text-[#FFFFFF]">
             <h1 class="mt-5 mb-5 title">Languages</h1>
             <div class="skillcomp">
+                <Image width={48} height={48} src="/c-logo.png"/>
+                <h2 class="mt-5">C++</h2>
+                <p>2023</p>
+            </div>
+            <div class="skillcomp">
                 <Image width={48} height={48} src="/java.png"/>
                 <h2 class="mt-5">Java</h2>
                 <p>2021</p>

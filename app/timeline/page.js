@@ -208,10 +208,22 @@ return(
                     7/12/2023
                 </TimelineOppositeContent>
                 <TimelineSeparator>
-                    <TimelineDot variant="outlined" color="secondary" id="pulse"/>
+                    <TimelineDot variant="outlined" color="success"/>
+                    <TimelineConnector />
                 </TimelineSeparator>
-                <TimelineContent color="white">Stock scrapper (In-progress)</TimelineContent>
+                <TimelineContent color="white">Stock scrapper</TimelineContent>
             </TimelineItem>
+
+            <TimelineItem>
+                <TimelineOppositeContent color="#636363">
+                    8/1/2023
+                </TimelineOppositeContent>
+                <TimelineSeparator>
+                    <TimelineDot variant="outlined" color="success"/>
+                </TimelineSeparator>
+                <TimelineContent color="white">Fast notes</TimelineContent>
+            </TimelineItem>
+
             </Timeline>
         </div>
         <div class="mb-20"></div>
