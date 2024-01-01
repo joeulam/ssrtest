@@ -27,6 +27,7 @@ export default function Home({posts}) {
         </navbar>
 
         <div class="body">
+          <h1 className="text-white text-[16px] text-center pt-20">This site is no longer maintained. Visit <a href="https://joeyresume.vercel.app/">https://joeyresume.vercel.app/</a> for the most up to date site</h1>
           <h1 class="name text-[#FFFFFF]" >
             I'm <span class="text-[#FF3364]">Joey</span> <span class="text-[#52BECC]">Lam</span>
           </h1>
